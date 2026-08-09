@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Hiragio Kaku Gothic proN', 'メイリオ', sans-serif;
+  color: #555;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  border-top: 8px solid #8c6239;
+}
+
+.header_logo {
+  width: 90px;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+  color: #8c6239;
+}
+
+#main_image {
+  width: 100%;
+  height: 50vh;
+  background-image: url('images/cafe.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#main_content {
+  width: 100%;
+  background-color: #f7f3ed;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box; }
+
+#sidebar {
+  width: 31%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  margin-bottom: 20px;
+}
+
+#home h2 {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #8c6239;
+  font-size: 1.2rem;
+}
+
+#info dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#info dt {
+  width: 7em;
+}
+
+#info dd {
+  width: calc(100% - 7em);
+}
+
+#info dt,
+#info dd {
+  margin-bottom: 10px;
+}
+
+#campaign ul {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+#campaign ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #a67c52;
+}
+
+footer ul {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  opacity: 0.7;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .contents {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  #main_content,
+  #sidebar {
+    width: 100%;
+  }
+}
+
+.item-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.item{
+  width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.item {
+  width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  /* 影の色をちゃんと数字（黒の薄い色）で指定します */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#main_content {
+  background-color: #f7f3ed;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.item a,
+.item a:link,
+.item a:visited,
+.item a:hover,
+.item a:active {
+  color: #555;    
+  text-decoration: none;  
+}
+
+/* 商品詳細 */
+.bottom {
+  margin-top: 150px;
+  padding-top: 40px;
+  border-top: 1px dashed #d2b48c;
+}
+
+.bottom-title {
+  font-size: 1.3rem;
+  color: #8c6239;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* 商品詳細のカード */
+.bottom section {
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.bottom section h3 {
+  color: #8c6239;
+  margin-bottom: 15px;
+}
+
+.bottom section h2 {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* 熊付きコーヒー */
+#bear {
+  border-left: 5px solid #c8a27a;
+}
+
+/* アフタヌーン */
+#afternoon {
+  border-left: 5px solid #d8b98a;
+}
+
+/* アフタヌーンのメッセージ */
+.bottom-message {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f3ed;
+  border-radius: 8px;
+  color: #8c6239;
+}
+
+.bottom-message p {
+  margin: 5px 0;
+}
