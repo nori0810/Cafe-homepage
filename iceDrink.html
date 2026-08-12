@@ -1,82 +1,41 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="こだわりのおいしいコーヒーとパンが楽しめるCSS Cafeの公式サイトです。" />
-    <title>CSS Cafe</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body id="home">
-    <header id="top">
-      <div class="header_content wrapper">
-        <h1>
-          <img class="header_logo" src="images/logo.png" alt="CSS Cafe" />
-        </h1>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="access.html">Access</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="main_image"></div>
-    </header>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホットコーヒー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="contents wrapper">
-      <main id="main_content">
-        <section id="info">
-          <h2>お知らせ</h2>
-          <dl>
-            <dt>2020/3/10</dt>
-            <dd>リニューアルオープンしました。</dd>
-            <dt>2020/4/15</dt>
-            <dd>4/27（金）は設備メンテナンスのため休業いたします。</dd>
-            <dt>2018/4/20</dt>
-            <dd>ゴールデンウィークは休まず営業いたします</dd>
-            <dt>2020/6/20</dt>
-            <dd>こだわりのパンに合わせたスペシャルデザートが登場</dd>
-            <dt>2020/7/10</dt>
-            <dd>営業時間の一部変更について</dd>
-          </dl>
+        <main id="main_content">
+        <h2>アイスコーヒー</h2>
+
+        <section class="product">
+        <h3>アイスコーヒー</h3>
+        <p>
+            すっきりとした苦みが少なく香りを楽しめる、
+            <br>
+            さわやかな味のコーヒーです。
+        </p>
+        
+        <p class="price">
+            価格：300円(税込み)
+        </p>
         </section>
 
-        <section id="campaign">
-          <h2>キャンペーン情報</h2>
-          <ul>
-            <li>日頃の感謝を込めて、パスタ全品がいつもよりお得に！</li>
-            <li>平日11時から14時までお得なランチタイムを実施中。</li>
-            <li>バイオリン演奏付きのスペシャルディナーイベントの早期予約受付中。</li>
-            <li>夏限定のスペシャルフルーツサンドを楽しもう！</li>
-          </ul>
-        </section>
-      </main>
+        <section class="product">
 
-      <aside id="sidebar">
-        <ul>
-          <li>
-            <a href="recomendation.html">
-              <img src="images/banner01.png" alt="季節のおすすめ商品はこちら" />
-            </a>
-          </li>
-          <li>
-            <a href="beans.html">
-              <img src="images/banner02.png" alt="コーヒー豆の豆知識" />
-            </a>
-          </li>
-        </ul>
-      </aside>
+        <h3>カフェラテ</h3>
+        <p>コーヒーが苦手な人でも飲める、
+            <br>
+            すっきり感が特徴
+        </p>
+        <p class="price">
+            価格：400円
+        </p>
+        </section>
+        </main>
     </div>
-    
-    <footer>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Access</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-      <small>&copy; 2026 CSS Cafe</small>
-    </footer>
-  </body>
+</body>
 </html>
